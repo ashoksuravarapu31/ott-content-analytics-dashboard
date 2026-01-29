@@ -27,7 +27,7 @@ The analysis is presented through **interactive Power BI dashboards**.
 ---
 
 ## 📂 Project Structure
-
+```
 📁 ott-content-analytics-dashboard/
 ├── 📁 Dashboard/
 │   ├── 📁 dashboard_images/
@@ -49,7 +49,7 @@ The analysis is presented through **interactive Power BI dashboards**.
 │   └── 📄 SQL_Queries.sql
 │
 └── 📄 README.md
-
+```
 ## 📊 Power BI Dashboards
 
 ### 1. OTT Content Overview

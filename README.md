@@ -28,26 +28,27 @@ The analysis is presented through **interactive Power BI dashboards**.
 
 ## 📂 Project Structure
 
-ott-content-analytics-dashboard/
+📁 ott-content-analytics-dashboard/
+├── 📁 Dashboard/
+│   ├── 📁 dashboard_images/
+│   │   ├── 01_ott_content_overview_dashboard.jpg
+│   │   ├── 02_genre_analysis_dashboard.jpg
+│   │   ├── 03_country_analysis_dashboard.jpg
+│   │   └── 04_year_wise_trend_dashboard.jpg
+│   └── 📄 OTT_Content_Analysis_Dashboard.pbix
 │
-├── Dashboard/
-│ ├── dashboard_images/
-│ └── OTT_Content_Analysis_Dashboard.pbix
+├── 📁 Data/
+│   ├── 📄 ott_analysis_clean.db
+│   ├── 📄 ott_analysis_clean.sqbpro
+│   └── 📄 ott_content_dataset.csv
 │
-├── Data/
-│ ├── ott_analysis_clean.db
-│ ├── ott_analysis_clean.sqbpro
-│ └── ott_content_dataset.csv
+├── 📁 Excel/
+│   └── 📄 OTT_Content_Performance_Analysis.xlsx
 │
-├── Excel/
-│ └── OTT_Content_Performance_Analysis.xlsx
+├── 📁 SQL/
+│   └── 📄 SQL_Queries.sql
 │
-├── SQL/
-│ └── SQL_Queries.sql
-│
-└── README.md
-
----
+└── 📄 README.md
 
 ## 📊 Power BI Dashboards
 

@@ -97,9 +97,33 @@ Excel was used for:
 
 ## 🧮 SQL Analysis
 
-SQL queries were used to:
-- Count total titles
-- Calculate average and maximum ratings
-- Perform genre-wise, country-wise, and year-wise aggregations
 
+```sql
+-- Total Titles
+SELECT COUNT(*) AS total_titles FROM ott_content;
+
+-- Average Rating
+SELECT ROUND(AVG(rating), 2) AS avg_rating FROM ott_content;
+
+-- Highest Rating
+SELECT MAX(rating) AS highest_rating FROM ott_content;
+
+-- Titles by Genre
+SELECT genre, COUNT(*) AS total_titles
+FROM ott_content
+GROUP BY genre
+ORDER BY total_titles DESC;
+
+-- Titles by Country
+SELECT country, COUNT(*) AS total_titles
+FROM ott_content
+GROUP BY country
+ORDER BY total_titles DESC;
+
+-- Year-wise Trend
+SELECT release_year, COUNT(*) AS total_titles
+FROM ott_content
+GROUP BY release_year
+ORDER BY release_year;
+---
 
